@@ -1,0 +1,10 @@
+.Main {
+  background-image: url("../assets/images/main_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+  /* padding: 95px; */
+}

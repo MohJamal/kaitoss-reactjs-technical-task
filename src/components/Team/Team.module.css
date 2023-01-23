@@ -1,0 +1,32 @@
+.Team {
+  background-color: #ffd800;
+  color: #000;
+  text-align: center;
+  padding: 90px;
+}
+
+.Team .Team_Header {
+  margin-bottom: 90px;
+}
+
+.Team .Team_Header h2 {
+  /* color: #d1d2d3; */
+  font-size: 3.33rem;
+}
+
+.Team .Team_Header h3 {
+  /* color: #fff; */
+  font-size: 2rem;
+}
+
+.Team h4 {
+  margin-top: 35px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.Team p {
+  margin-top: 25px;
+  padding: 0 10px;
+  color: #8f7a1b;
+}

@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <Box
       className={styles.Footer}
-      sx={{ padding: { sm: "40px 30px", md: "40px 60px" } }}
+      // sx={{ padding: { sm: "40px 30px", md: "40px 60px" } }}
       component="footer"
       // style={styles}
     >

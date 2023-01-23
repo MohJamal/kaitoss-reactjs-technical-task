@@ -1,11 +1,12 @@
 .Procedure {
-  background-image: url("../assets/images/procedure_background.png");
-  background-repeat: "no-repeat";
-  background-size: "cover";
-  background-position: "center center";
-  background-attachment: "fixed";
+  background-image: url("../../assets/images/procedure_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   text-align: center;
   color: #fff;
+  padding: 95px;
 }
 
 .Procedure .Procedure_Header {
@@ -22,12 +23,17 @@
   font-size: 2rem;
 }
 
-.Procedure h4 {
-  font-size: 1.7rem;
-  margin-top: 30px;
+.Procedure .Grid {
+  margin-bottom: 80px;
 }
 
-.Procedure p {
+.Procedure .Grid h4 {
+  font-size: 1.7rem;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.Procedure .Grid p {
   font-size: 0.88rem;
   color: #7b7d88;
   margin-top: 15px;

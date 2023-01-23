@@ -1,7 +1,14 @@
-import React from "react";
+import { Box, Typography } from "@mui/material";
+import styles from "./Main.module.css";
 
 const Main = () => {
-  return <div>Main</div>;
+  return (
+    <Box className={styles.Main} component="main">
+      <Typography variant="h1">
+        Discover the wold of awsome free PSD templates
+      </Typography>
+    </Box>
+  );
 };
 
 export default Main;
