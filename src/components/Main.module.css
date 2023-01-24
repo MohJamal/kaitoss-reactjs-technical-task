@@ -6,5 +6,32 @@
   background-attachment: fixed;
   text-align: center;
   color: #fff;
-  /* padding: 95px; */
+  padding: 240px;
+}
+
+.Main h1 {
+  font-size: 3.33rem;
+  color: #8a8c97;
+  padding: 0 100px;
+  margin-bottom: 80px;
+}
+
+.Main h1 > span {
+  font-weight: bold;
+  color: #fff;
+}
+
+.Main form fieldset {
+  border-color: #b5b7bf;
+}
+
+.Main form label {
+  color: #b5b7bf;
+  font-weight: bold;
+}
+
+.Main form button {
+  background-color: #ffd800;
+  color: #000;
+  font-weight: bold;
 }

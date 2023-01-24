@@ -1,3 +1,5 @@
+import CssBaseline from "@mui/material/CssBaseline";
+
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Services from "./components/Services";
@@ -10,13 +12,14 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <CssBaseline />
+      <Header />
       <Main />
       {/* <Services /> */}
-      {/* <Team /> */}
+      <Team />
       {/* <AwesomeApp /> */}
-      {/* <Procedure /> */}
-      {/* <Footer /> */}
+      <Procedure />
+      <Footer />
     </div>
   );
 }
